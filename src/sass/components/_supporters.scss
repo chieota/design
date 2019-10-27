@@ -1,0 +1,88 @@
+@media screen and (min-width:769px) {
+
+.supporters-content {
+    padding:100px 0;
+
+}
+
+
+
+.l-wrap-supporters {
+    width:1440px;
+    position:absolute;
+    
+}
+
+.supporters-list {
+    display:flex;
+    position:absolute;
+    left:180px;
+
+
+    li {
+        list-style:none;
+    }
+
+    .supporters-image-ibm {
+        width:150px;
+        margin-right:50px;
+        
+    }
+    .supporters-image-microsoft,.supporters-image-twitter {
+        width:250px;
+        margin-right:50px;
+    }
+    .supporters-image-facebook {
+        width:250px;
+
+    }
+
+    .support-content {
+        text-align:center;
+    }
+
+
+}
+}
+
+@media screen and (max-width:768px) {
+
+    .supporters {
+        // width:768px;
+        margin:0 auto;
+        
+    }
+    .l-wrap-supporters {
+        // max-width:768px;
+        width:100%;
+        margin:0 auto;
+        height:10vh;
+        background:white;
+        text-align:center;
+        margin:0 auto;
+        ul {
+            text-align:center;
+            padding:0 auto;
+            padding-top:20px;
+            padding-right:20px;
+            margin: 0 auto;
+            
+        }
+
+    }
+    .supporters-list {
+        display:flex;
+        text-align:center;
+        position:absolute;
+        margin:0 auto;
+    }
+
+    li {
+        list-style:none;
+        img {
+            width:70px;
+
+        }
+    }
+
+}

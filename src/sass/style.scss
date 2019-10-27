@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+@import 'setting';
+@import 'base/sanitize';
+@import 'base/mixin';
+@import "base/placeholders";
+@import 'base/base';
+
+@import "lib/media-queries";
+@import "lib/clearfix";
+@import 'lib/flex';
+@import 'lib/slick';
+
+// @import 'sprites/icon';
+
+// **components**
+@import "components/head";
+@import "components/hero";
+@import "components/header";
+@import "components/top";
+@import "components/feature";
+@import "components/service";
+@import "components/news";
+@import "components/supporters";
+@import "components/mail";
+@import "components/footer";
+@import "components/burger";
+
+
+// @import "components/header";
+
+@import 'layout/grid';
+@import 'layout/layout';
+
+
+

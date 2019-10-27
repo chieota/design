@@ -1,0 +1,113 @@
+@media screen and (min-width:769px) {
+
+.mail {
+    background:#f6f6f6;
+    padding-bottom:50px;
+      
+    .mail-left {
+        display:block;
+        width:40%;
+    }
+    .mail-right {
+        display:block;
+        width:40%;
+        margin-right:40px;
+        margin-left:30px;
+        
+    }
+    .mail-content {
+        display:flex;
+        justify-content: center;
+        margin-top:-20px;
+    }
+
+    .mail-field {
+        border:2px solid #ccc;
+        background:#fff;
+        width:90%;
+        font-size:25px;
+        padding:15px;
+        margin:18px;
+    }
+    .mail-comment-field {
+        border:2px solid #ccc;
+        background:#fff;
+        width:96%;
+        font-size:25px;
+        padding:12px;
+        margin:18px 5px 30px 10px;
+
+    }
+    .mail-submit-btn {
+        background:#333;
+        color:#fff;
+        box-shadow:5px 5px #ccc;
+        font-size:20px;
+        width:96%;
+        padding:20px;
+        margin-left:20px;
+        letter-spacing:0.1em;   
+        &:hover {
+            transform: translate(5px, 5px);
+            box-shadow:none;
+         }
+    }
+
+
+}
+}
+
+@media screen and (max-width:768px) {
+    .mail {
+        background:#f6f6f6;
+        padding-bottom:50px;
+          
+        .mail-left {
+            display:block;
+            width:100%;
+            margin-top:30px;
+        }
+        .mail-right {
+            display:block;
+            width:100%;
+
+            
+        }
+        .mail-content {
+            display:block;
+            justify-content: center;
+            margin-top:-20px;
+        }
+    
+        .mail-field {
+            border:2px solid #ccc;
+            background:#fff;
+            width:96%;
+            font-size:10px;
+            padding:5px;
+            margin:5px;
+        }
+        .mail-comment-field {
+            border:2px solid #ccc;
+            background:#fff;
+            width:96%;
+            font-size:10px;
+            padding:5px;
+            margin:5px 5px 5px 10px;
+    
+        }
+        .mail-submit-btn {
+            background:#333;
+            color:#fff;
+            box-sizing: border-box;
+            font-size:10px;
+            width:96%;
+            padding:5px;
+            margin-left:20px;
+            letter-spacing:0.1em;  
+            text-align:center; 
+            margin:0 auto;
+        }
+    
+    }
+}

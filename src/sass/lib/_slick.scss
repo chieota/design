@@ -1,0 +1,61 @@
+@import '../../../node_modules/slick-carousel/slick/slick.scss';
+@media (max-width: 768px){
+    .slick-prev {
+        left: 0;
+        width: 30px;
+        height: 30px;
+        border: 2px solid #333;
+        border-radius: 50%;
+        z-index: 9;
+        text-indent: -9999px;
+        position: absolute;
+        top: 51.3%;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+
+}
+.slick-prev:before {
+    content: ' ';
+    width: 0;
+    height: 0;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    border-right: 6px solid #333;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+}
+
+.slick-next {
+    right: 0;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #333;
+    border-radius: 50%;
+    z-index: 9;
+    text-indent: -9999px;
+    position: absolute;
+    top: 51.3%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.slick-next:before {
+    content: ' ';
+    width: 0;
+    height: 0;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    border-left: 6px solid #333;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+}
+
+}
